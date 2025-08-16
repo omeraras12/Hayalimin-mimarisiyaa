@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilya Koleksiyonu | Hayalimin Mimarisi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Hayalimin Mimarisi</h1>
+                <p>Özel Tasarım Ürünler</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Ana Sayfa</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="active">Kategoriler <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mobilya.html" class="active">Mobilya</a></li>
+                            <li><a href="aksesuar.html">Aksesuar</a></li>
+                            <li><a href="tesbih.html">Tesbih</a></li>
+                            <li><a href="dekorasyon.html">Dekorasyon</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../index.html#about">Hakkımızda</a></li>
+                    <li><a href="../index.html#contact">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Mobilya Koleksiyonu</h1>
+            <p>Özel tasarım mobilyalar ile yaşam alanlarınıza şıklık katın</p>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <div class="container">
+            <div class="product-detail" id="cam-masa">
+                <div class="product-gallery">
+                    <div class="main-image-container">
+                        <img src="../images/products/product1/1.jpg" alt="Cam Masa" class="main-image" id="mainImage">
+                    </div>
+                    <div class="thumbnail-container">
+                        <img src="../images/products/product1/1.jpg" alt="Cam Masa 1" class="thumbnail active" onclick="changeImage(this, '../images/products/product1/1.jpg')">
+                        <img src="../images/products/product1/2.jpg" alt="Cam Masa 2" class="thumbnail" onclick="changeImage(this, '../images/products/product1/2.jpg')">
+                        <img src="../images/products/product1/3.jpg" alt="Cam Masa 3" class="thumbnail" onclick="changeImage(this, '../images/products/product1/3.jpg')">
+                        <img src="../images/products/product1/4.jpg" alt="Cam Masa 4" class="thumbnail" onclick="changeImage(this, '../images/products/product1/4.jpg')">
+                        <img src="../images/products/product1/5.jpg" alt="Cam Masa 5" class="thumbnail" onclick="changeImage(this, '../images/products/product1/5.jpg')">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h2>Lüks Cam Masa</h2>
+                    <p class="price">₺3,500</p>
+                    <div class="product-meta">
+                        <span><i class="fas fa-tag"></i> Mobilya</span>
+                        <span><i class="fas fa-box-open"></i> Stokta Var</span>
+                    </div>
+                    <p class="description">
+                        El yapımı özel tasarım cam masa, şık ve modern bir görünüm sunar. Kaliteli malzemeler kullanılarak üretilmiş olup, uzun yıllar boyunca kullanabileceğiniz bir üründür. Masa üzerindeki özel desenler ve işçilik ile eşsiz bir parça haline gelmiştir.
+                    </p>
+                    <div class="product-specs">
+                        <h3>Özellikler</h3>
+                        <ul>
+                            <li><strong>Malzeme:</strong> Temperli Cam, Metal Ayak</li>
+                            <li><strong>Renk:</strong> Şeffaf Cam, Altın Renk Ayak</li>
+                            <li><strong>Ölçüler:</strong> 150cm x 90cm x 75cm</li>
+                            <li><strong>Ağırlık:</strong> 25kg</li>
+                        </ul>
+                    </div>
+                    <div class="social-share">
+                        <p>Sosyal Medyada Paylaş:</p>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products">
+        <div class="container">
+            <h2 class="section-title">Benzer Ürünler</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/products/product4/1.jpg" alt="Ahşap Masa" class="main-image">
+                        <div class="image-thumbnails">
+                            <img src="../images/products/product4/1.jpg" alt="Ahşap Masa 1">
+                            <img src="../images/products/product4/2.jpg" alt="Ahşap Masa 2">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ahşap Yemek Masası</h3>
+                        <p class="price">₺4,200</p>
+                        <p class="description">Masif ceviz ağacından el yapımı yemek masası.</p>
+                        <a href="mobilya.html#ahsap-masa" class="details-btn">Detayları Gör</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/products/product5/1.jpg" alt="Koltuk Takımı" class="main-image">
+                        <div class="image-thumbnails">
+                            <img src="../images/products/product5/1.jpg" alt="Koltuk Takımı 1">
+                            <img src="../images/products/product5/2.jpg" alt="Koltuk Takımı 2">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Deri Koltuk Takımı</h3>
+                        <p class="price">₺7,800</p>
+                        <p class="description">Premium deri koltuk takımı, 3+2+1.</p>
+                        <a href="mobilya.html#deri-koltuk" class="details-btn">Detayları Gör</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../images/products/product6/1.jpg" alt="Kitaplık" class="main-image">
+                        <div class="image-thumbnails">
+                            <img src="../images/products/product6/1.jpg" alt="Kitaplık 1">
+                            <img src="../images/products/product6/2.jpg" alt="Kitaplık 2">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Modern Kitaplık</h3>
+                        <p class="price">₺2,900</p>
+                        <p class="description">Metal ve ahşap kombinasyonu modern kitaplık.</p>
+                        <a href="mobilya.html#modern-kitaplik" class="details-btn">Detayları Gör</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Hayalimin Mimarisi</h3>
+                    <p>Özel Tasarım Ürünler</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="../index.html">Ana Sayfa</a></li>
+                        <li><a href="mobilya.html">Mobilya</a></li>
+                        <li><a href="aksesuar.html">Aksesuar</a></li>
+                        <li><a href="tesbih.html">Tesbih</a></li>
+                        <li><a href="../index.html#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Sosyal Medya</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Hayalimin Mimarisi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="../script.js"></script>
+    <script>
+        // Product image gallery functionality for detail page
+        function changeImage(element, newImageSrc) {
+            // Change main image
+            document.getElementById('mainImage').src = newImageSrc;
+            
+            // Update active thumbnail
+            document.querySelectorAll('.thumbnail').forEach(thumb => {
+                thumb.classList.remove('active');
+            });
+            element.classList.add('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayalimin Mimarisi | Özel Tasarım Ürünler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Hayalimin Mimarisi</h1>
+                <p>Özel Tasarım Ürünler</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                    <li class="dropdown">
+                        <a href="#">Kategoriler <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="products/mobilya.html">Mobilya</a></li>
+                            <li><a href="products/aksesuar.html">Aksesuar</a></li>
+                            <li><a href="products/tesbih.html">Tesbih</a></li>
+                            <li><a href="products/dekorasyon.html">Dekorasyon</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Özel Tasarım Ürünlerle Hayallerinizi Şekillendirin</h2>
+            <p>Eşsiz mobilya ve aksesuarlarla yaşam alanlarınıza karakter katın</p>
+            <a href="#featured" class="btn">Keşfet</a>
+        </div>
+    </section>
+
+    <section id="featured" class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Öne Çıkan Ürünler</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product1/1.jpg" alt="Cam Masa" class="main-image">
+                        <div class="image-thumbnails">
+                            <img src="images/products/product1/1.jpg" alt="Cam Masa 1">
+                            <img src="images/products/product1/2.jpg" alt="Cam Masa 2">
+                            <img src="images/products/product1/3.jpg" alt="Cam Masa 3">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Lüks Cam Masa</h3>
+                        <p class="price">₺3,500</p>
+                        <p class="description">El yapımı özel tasarım cam masa, şık ve modern bir görünüm sunar.</p>
+                        <a href="products/mobilya.html#cam-masa" class="details-btn">Detayları Gör</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product2/1.jpg" alt="Ahşap Tesbih" class="main-image">
+                        <div class="image-thumbnails">
+                            <img src="images/products/product2/1.jpg" alt="Ahşap Tesbih 1">
+                            <img src="images/products/product2/2.jpg" alt="Ahşap Tesbih 2">
+                            <img src="images/products/product2/3.jpg" alt="Ahşap Tesbih 3">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Özel Ahşap Tesbih</h3>
+                        <p class="price">₺850</p>
+                        <p class="description">Gül ağacından el yapımı, özenle işlenmiş tesbih.</p>
+                        <a href="products/tesbih.html#ahsap-tesbih" class="details-btn">Detayları Gör</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/product3/1.jpg" alt="Duvar Aksesuarı" class="main-image">
+                        <div class="image-thumbnails">
+                            <img src="images/products/product3/1.jpg" alt="Duvar Aksesuarı 1">
+                            <img src="images/products/product3/2.jpg" alt="Duvar Aksesuarı 2">
+                            <img src="images/products/product3/3.jpg" alt="Duvar Aksesuarı 3">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Metal Duvar Aksesuarı</h3>
+                        <p class="price">₺1,200</p>
+                        <p class="description">Modern tasarım metal duvar süsü, mekanlara şıklık katar.</p>
+                        <a href="products/aksesuar.html#duvar-aksesuar" class="details-btn">Detayları Gör</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Kategoriler</h2>
+            <div class="categories-grid">
+                <a href="products/mobilya.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/mobilya.jpg" alt="Mobilya">
+                    </div>
+                    <h3>Mobilya</h3>
+                </a>
+                <a href="products/aksesuar.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/aksesuar.jpg" alt="Aksesuar">
+                    </div>
+                    <h3>Aksesuar</h3>
+                </a>
+                <a href="products/tesbih.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/tesbih.jpg" alt="Tesbih">
+                    </div>
+                    <h3>Tesbih</h3>
+                </a>
+                <a href="products/dekorasyon.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/dekorasyon.jpg" alt="Dekorasyon">
+                    </div>
+                    <h3>Dekorasyon</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Hakkımızda</h2>
+                <p>Hayalimin Mimarisi, özel tasarım mobilya ve aksesuarlarla yaşam alanlarınıza karakter katmayı amaçlayan bir markadır. Her bir ürünümüz titizlikle seçilmiş malzemeler ve özenli işçilikle hazırlanmaktadır.</p>
+                <p>Ürünlerimiz hakkında daha fazla bilgi almak için sosyal medya hesaplarımızı takip edebilir veya bizimle iletişime geçebilirsiniz.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/about.jpg" alt="Hayalimin Mimarisi Hakkında">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Bize Ulaşın</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Örnek Mahallesi, No:123, İstanbul</p>
+                    <p><i class="fas fa-phone"></i> (0212) 123 45 67</p>
+                    <p><i class="fas fa-envelope"></i> info@hayaliminmimarisi.com</p>
+                    <div class="contact-social">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Adınız Soyadınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Konu">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Mesajınız" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Hayalimin Mimarisi</h3>
+                    <p>Özel Tasarım Ürünler</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="products/mobilya.html">Mobilya</a></li>
+                        <li><a href="products/aksesuar.html">Aksesuar</a></li>
+                        <li><a href="products/tesbih.html">Tesbih</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Sosyal Medya</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Hayalimin Mimarisi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
